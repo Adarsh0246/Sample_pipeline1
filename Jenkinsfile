@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       PATH = "C:\\R2023b_Windows\\bin;${PATH}"   // Windows agent 
+       PATH = "C:\Program Files\MATLAB\R2023b\bin;${PATH}"   // Windows agent 
    }
     stages {
         stage('First_Step') {
