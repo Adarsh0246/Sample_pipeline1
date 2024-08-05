@@ -2,12 +2,12 @@ function tests = test_and_gate_model()
     tests = functiontests(localfunctions);
 end
 
-function setupOnce(testCase)
+function setupOnce(~)
     % Load the Simulink model
     load_system('and_gate_model.slx');
 end
 
-function teardownOnce(testCase)
+function teardownOnce(~)
     % No teardown required
 end
 
